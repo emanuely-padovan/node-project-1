@@ -1,0 +1,62 @@
+{
+    "matricula": 10234,
+    "nome_completo": "José Macedo",
+    "email": "josemarcos@gmail.com",
+    "idade": 17,
+    "bolsista": true,
+    "media_final": 8.5,
+    "curso": null
+}
+
+--------------------------------------------------------------------------->>>---------------------------------------------------------------------
+
+{
+    "codigo_turma": "BR7363",
+    "periodo": "Manhã",
+    "professor": {
+        "nome": "Aparecida",
+        "area": "Matemática"
+    },
+    "alunos": [
+        {
+            "nome": "João Gomez",
+            "matricula": "BR934823"
+        },
+        {
+            "nome": "Laura Maria",
+            "matricula": "GT8329"
+        }
+    ]
+}
+
+--------------------------------------------------------------------------->>>---------------------------------------------------------------------
+
+{
+    "id_pedido": "RU9342",
+    "data_pedido": "2025-11-04T10:30:45",
+    "status": "Processando...",
+    "cliente": {
+        "nome": "Emanuely Macedo Padovan",
+        "email": "emanuely.mpadovan@gmail.com"
+    },
+    "endereco_entrega": {
+        "rua": "R. João de Arruda",
+        "numero": 50,
+        "cidade": "Salto-SP",
+        "CEP": "13322-288"
+    },
+    "itens": [
+        {
+            "id_produto": "BTFT3872",
+            "nome_produto": "Maçã",
+            "quantidade": 89,
+            "preco_unitario": "R$2,90"
+        },
+        {
+            "id_produto": "BYT73282",
+            "nome_produto": "Pera",
+            "quantidade": 89,
+            "preco_unitario": "R$2,90"
+        }
+    ]
+}
