@@ -19,8 +19,23 @@ const livros = [
     }
 ]
 
+function buscarLivro(isbn) {
+    return livros.findIndex(livro => {
+        return livro.isbn === Number(isbn)
+    })
+}
+
 app.get('/', (req,res) => {
     res.status(200).send("Biblioteca Saber & Cia")
+})
+
+app.get('/livros', (req,res) => {
+    res.status(200).json(livros)
+})
+
+app.get('/livros/:isbn', (req,res) => {
+    const index = buscarLivro(req.params.isbn)
+    res.status(200).json(livros[index])
 })
 
 export default app
