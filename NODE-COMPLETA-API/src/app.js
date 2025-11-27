@@ -58,3 +58,9 @@ app.delete('/livros/:isbn', (req,res) => {
 })
 
 export default app
+
+
+// MONGO DB
+// User: emanuelypadovan
+// Password: Un4LD8fRAywg5Ncd
+// Conexão: mongodb+srv://emanuelypadovan:Un4LD8fRAywg5Ncd@biblioteca.qgyet0j.mongodb.net/?appName=Biblioteca
