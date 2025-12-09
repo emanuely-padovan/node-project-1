@@ -55,7 +55,7 @@ app.delete("/filmes/:id", (req, res) => {
     const index = buscarFilme(req.params.id)
     filmes.splice(index, 1)
     // res.status(200).json()
-    res.status(200).send("Livro removido com sucesso!") // - Maneira como aprendemos...
+    res.status(200).send("Filme removido com sucesso!") // - Maneira como aprendemos...
 })
 
 export default app
